@@ -1,0 +1,112 @@
+body, ul, li, p div{
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-size: 1.2rem;
+font-family: Arial;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+
+}
+
+.menu{
+    display: flex;
+    color: white;
+}
+
+.menu li{
+    margin-left: 20px;
+    justify-content: left;
+ 
+}
+h2{
+    text-align:left;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.article > div{
+    flex: 1 1 200px;
+    margin: 5px;
+   
+}
+
+.footer{
+    display: flex;
+    background: black;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
+
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+</style>
+
